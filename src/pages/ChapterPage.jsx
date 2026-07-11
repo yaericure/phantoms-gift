@@ -30,7 +30,7 @@ export default function ChapterPage({ id }) {
           <h1 className="mt-1.5 text-3xl font-bold tracking-wide text-zinc-900 sm:text-4xl dark:text-zinc-50">
             {chapter.title}
           </h1>
-          <div className="mt-4 h-1.5 w-36 rounded-full bg-gradient-to-r from-zinc-900 via-zinc-500 to-zinc-200 dark:from-zinc-100 dark:via-zinc-400 dark:to-zinc-700" />
+          <div className="mt-4 h-1.5 w-36 rounded-full bg-gradient-to-r from-orange-600 via-orange-400 to-orange-200 dark:from-orange-400 dark:via-orange-500 dark:to-orange-900" />
         </div>
 
         <Suspense fallback={<div className="py-16 text-center text-sm text-zinc-400">載入中…</div>}>

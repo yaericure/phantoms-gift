@@ -24,7 +24,7 @@ html {
 .article h1 { @apply mt-2 mb-6 text-3xl font-bold tracking-wide text-zinc-900 dark:text-zinc-50; }
 .article h2 {
   @apply mt-12 mb-5 pb-2 text-2xl font-bold tracking-wide text-zinc-900 dark:text-zinc-50
-         border-b border-zinc-200 dark:border-zinc-800 scroll-mt-24;
+         border-b border-orange-300/60 dark:border-orange-800/50 scroll-mt-24;
 }
 .article h3 {
   @apply mt-9 mb-3 text-lg font-semibold text-zinc-900 dark:text-zinc-100 scroll-mt-24
@@ -32,7 +32,7 @@ html {
 }
 .article h3::before {
   content: "";
-  @apply inline-block h-4 w-1 rounded-full bg-zinc-400 dark:bg-zinc-500;
+  @apply inline-block h-4 w-1 rounded-full bg-orange-500 dark:bg-orange-400;
 }
 
 .article ul, .article ol { @apply my-4 max-w-[46rem] space-y-2 pl-6; }

@@ -41,7 +41,7 @@ export default function Toc({ items }) {
                 it.depth === 3 ? "pl-6" : "pl-3"
               } ${
                 activeId === it.id
-                  ? "border-zinc-900 font-medium text-zinc-900 dark:border-zinc-100 dark:text-zinc-50"
+                  ? "border-orange-500 font-medium text-orange-700 dark:border-orange-400 dark:text-orange-300"
                   : "border-transparent text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200"
               }`}
             >

@@ -30,7 +30,7 @@ function PartGroup({ part, onNavigate }) {
         />
       </button>
       {open && (
-        <div className="mt-1 space-y-0.5 border-l border-zinc-200 pl-2 dark:border-zinc-700">
+        <div className="mt-1 space-y-0.5 border-l border-orange-300/60 pl-2 dark:border-orange-800/50">
           {part.chapters.map((ch) => (
             <ChapterLink key={ch.id} ch={ch} onNavigate={onNavigate} />
           ))}
@@ -48,7 +48,7 @@ function ChapterLink({ ch, onNavigate }) {
       className={({ isActive }) =>
         `block rounded-lg px-2.5 py-1.5 text-[13.5px] leading-snug transition-colors ${
           isActive
-            ? "bg-zinc-900 font-medium text-white dark:bg-zinc-100 dark:text-zinc-900"
+            ? "bg-orange-500/15 font-semibold text-orange-800 dark:bg-orange-400/15 dark:text-orange-300"
             : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
         }`
       }
